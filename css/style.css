@@ -1,0 +1,160 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'andada'!important;
+}
+.nav-logo{
+     font-size: 25px;
+     font-weight: 700;
+}
+.nav-link:hover{
+     font-size:18px;
+     color: red;
+     font-weight: 700;
+}
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(253, 253, 253, 0.3),rgba(253, 253, 253, 0.3)),url(../img/accessory-close-up-clothes-1391420.jpg);
+    background-attachment: fixed;
+}
+.hero-head{
+     font-weight: 900;
+     font-size: 100px;
+     color: rgb(53, 52, 52);
+}
+.hero-span{
+     font-size: 30px;
+     color: rgb(53, 52, 52);
+     font-weight: 100;
+}
+.hero{
+     display: flex;
+     height: 80vh;
+     align-items: center;
+     justify-content: center;
+}
+.about-section{
+     width: 100%;
+     height: 120vh;
+     background:linear-gradient(rgba(253, 253, 253, 0.3),rgba(253, 253, 253, 0.3)),url(../img/apparel-attire-blur-994517.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .abt-contain{
+      background-color: white;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+ }
+ .abtt{
+      text-align: center;
+ }
+ .abt-para{
+      font-size:15px
+ }
+ .do-section{
+     width: 100%;
+     height: 120vh;
+     background:linear-gradient(rgba(253, 253, 253, 0.3),rgba(253, 253, 253, 0.3)),url(../img/apparel-black-and-white-boutique-1884583.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .different-section{
+     width: 100%;
+     height: 140vh;
+     background:linear-gradient(rgba(253, 253, 253, 0.3),rgba(253, 253, 253, 0.3)),url(../img/beautiful-beauty-black-friday-972995.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .service-section{
+     width: 100%;
+     height: 200vh;
+     background:linear-gradient(rgba(253, 253, 253, 0.3),rgba(253, 253, 253, 0.3)),url(../img/boutique-close-up-clothes-1884584.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+.icon{
+     margin-right:10px;    
+ }
+ .service-contain{
+      background-color: white;
+      height: auto;
+      padding-bottom: 100px;
+ }
+ .serve-cont{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+ }
+ .service-head{
+      margin-top:100px;
+     margin-bottom: 100px;
+ }
+ .contact-section{
+      width: 100%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+ }
+ input[type="text"],input[type="email"]{
+     border: 1px solid rgb(99, 97, 97);
+     padding: 10px; 
+     border-radius: 0 !important;
+     margin-bottom: 50px;
+}
+.contact-head{
+     margin-bottom: 80px;
+}
+textarea{
+     margin-top: 50px;
+     padding: 10px;
+     padding-top: 20px !important;
+     height: 30vh;
+     border: 1px solid rgb(99, 97, 97) !important;
+     border-radius: 0 !important;
+}
+.butt-contact{
+     margin-top: 50px;
+     margin-bottom: 100px;
+     color: white;
+     background-color:rgb(163, 138, 123);
+     border:none;
+     padding:10px;
+     padding-left: 30px;
+     padding-right: 30px;
+     transition: 1s;
+ }
+.butt-contact:hover{
+     cursor: pointer;
+}
+
+.accordion-button:hover{
+     background-color:rgb(163, 138, 123)!important;
+     color: black;
+}
+.accordion-button:focus{
+     background-color:rgb(163, 138, 123)!important;
+     color: black;
+}
+.accordion-button:link{
+     background-color:rgb(163, 138, 123)!important;
+     color: black;
+}
+.bii{
+     margin-right: 30px;
+     color:rgb(163, 138, 123);
+}
+.iconss{
+     padding-top: 100px;
+}
+.copy{
+     text-align: center;
+     padding-top: 70px;
+}
